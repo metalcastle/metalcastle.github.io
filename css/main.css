@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a3698b;
+  background: #9547b5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2867,7 +2867,7 @@ pre .javascript .function {
 }
 .sidebar-inner.affix {
   position: fixed;
-  top: 12px;
+  top: 24px;
 }
 .sidebar-inner.affix-bottom {
   position: absolute;
@@ -2993,18 +2993,27 @@ pre .javascript .function {
     text-align: justify;
   }
 }
+body {
+  color: #6b8e23;
+}
 .content-wrap {
-  background: #2f4f4f;
+  background: #222;
 }
 .site-meta {
-  background: #2e8b57;
+  background: #111;
+}
+.header-inner {
+  background: #333;
 }
 .site-title {
   font-size: 32px;
 }
 .sidebar-inner {
   color: #008000;
-  background: #5f9ea0;
+  background: #444;
+}
+.site-author-name {
+  color: #ffa500;
 }
 .pace {
   -webkit-pointer-events: none;
@@ -3023,7 +3032,7 @@ pre .javascript .function {
   top: 0;
   right: 100%;
   width: 100%;
-  height: 3px;
+  height: 6px;
 }
 .pace .pace-progress-inner {
   display: block;
