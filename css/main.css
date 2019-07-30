@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2deef6;
+  background: #26e3ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2992,6 +2992,13 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+hr {
+  margin: 40px 0;
+  height: 1px;
+  border: none;
+  background-color: #000;
+  background-image: repeating-linear-gradient(-45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
 }
 body {
   color: #6b8e23;
